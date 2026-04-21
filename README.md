@@ -1,68 +1,68 @@
-# Frontend Developer Assignment – UI Implementation
+🖥️ Salesforce CRM UI — Frontend Assignment
+A pixel-accurate, interactive implementation of a Salesforce-style CRM interface built from scratch using HTML5, CSS3, Vanilla JavaScript, and the Salesforce Lightning Design System (SLDS). This was developed as a frontend interview assignment to demonstrate UI development skills without any frameworks.
 
-## 📌 Overview
+🔗 Live Demo: https://gobikrishnan-33.github.io/frontend-assignment-salesforce-ui/
 
-This project is a responsive and interactive implementation of the provided design mockup. The objective was to accurately translate the wireframe into functional UI components using modern frontend practices.
+📸 Preview
 
-The application focuses on clean structure, responsiveness, and interactive behavior.
+<img width="1433" height="849" alt="Screenshot 2026-04-21 at 11 29 55 AM" src="https://github.com/user-attachments/assets/f8613917-c26c-4f72-ba5e-236424fa6b39" />
 
----
 
-## 🛠 Technologies Used
+🎯 Objective
+Accurately translate a provided design mockup into a fully functional, responsive UI using modern frontend techniques — no frameworks, no shortcuts. The goal was to demonstrate clean code, component thinking, and attention to detail.
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
-* Salesforce Lightning Design System (SLDS)
+🛠️ Tech Stack
+TechnologyPurposeHTML5Semantic document structureCSS3Layout, responsiveness, custom stylingVanilla JavaScriptDOM manipulation, interactivity, stateSalesforce SLDSDesign system components and tokens
 
----
+✨ Features
 
-## ✨ Features Implemented
+📑 Tab Switching — Top-level and sub-tab navigation with active state management
+🔷 Salesforce Path Component — Interactive step-by-step progress indicator (SLDS-style)
+📋 Task Form with Validation — Client-side validation with error feedback
+💾 LocalStorage Persistence — Tasks saved and restored on page reload
+📊 Dynamic Table Rendering — JavaScript-generated table rows from data
+➕ View More Pagination — Progressive reveal of task list items
+⏱️ Timeline Expand/Collapse — Accordion-style activity timeline
+📱 Responsive Layout — Optimized for desktop and tablet viewports
 
-* Responsive layout (desktop & tablet friendly)
-* Top tab switching
-* Sub-tab interaction
-* Salesforce-style Path step interaction
-* Timeline expand/collapse functionality
-* Task form with validation
-* LocalStorage persistence for tasks
-* Dynamic table rendering
-* View More functionality for task list
-* Clean favicon and structured assets folder
 
----
+📂 Project Structure
+frontend-assignment-salesforce-ui/
+├── index.html          # Main HTML entry point
+├── css/
+│   └── styles.css      # Custom styles on top of SLDS
+├── js/
+│   └── app.js          # All interactivity and DOM logic
+├── assets/             # Icons, images, and static files
+└── README.md
 
-## 📂 Project Structure
+🚀 Getting Started
+View Live
+👉 https://gobikrishnan-33.github.io/frontend-assignment-salesforce-ui/
+Run Locally
+bash# Clone the repository
+git clone https://github.com/gobikrishnan-33/frontend-assignment-salesforce-ui.git
 
-```
-index.html
-css/
-js/
-assets/
-README.md
-```
+# Navigate into the folder
+cd frontend-assignment-salesforce-ui
 
----
+# Open in browser
+open index.html
+# or just double-click index.html
+No build tools or dependencies required — opens directly in any modern browser.
 
-## 🚀 How to Run
+💡 Key Takeaways / What I Learned
 
-1. Clone the repository
-2. Open `index.html` in your browser
+Hands-on experience with the Salesforce Lightning Design System tokens and components
+Building stateful UI (tabs, path steps, modals) without a framework
+Using LocalStorage for lightweight client-side data persistence
+Writing modular Vanilla JS that is readable and maintainable
+Matching a design mockup with precision using CSS custom properties
 
-Or view the live demo:
-🔗 https://gokul-033.github.io/frontend-assignment-salesforce-ui/
 
----
+👨‍💻 Author
+Gobikrishnan M — Frontend Developer
+📎 LinkedIn | 💻 GitHub
 
-## 🎯 Objective Achievement
-
-The implementation closely follows the provided design mockup while ensuring:
-
-* Clean and maintainable code
-* Interactive UI behavior
-* Consistent styling
-* Proper component structure
-
----
-
-Thank you for reviewing this assignment.
+📄 License
+This project was built as part of a frontend interview assignment. Feel free to explore the code for learning purposes.
